@@ -177,7 +177,7 @@ public class Inventario {
      * @return size
     */
         
-    public int getNoOfClothes() {
+    public int getNoOfItems() {
         return this.inventario.size();
     }
     

@@ -41,7 +41,7 @@ public class GestorGUI extends javax.swing.JFrame {
         
         this.tblProduct.setModel(model);
         
-        for(int i = 0; i<ProductInventory.getNoOfClothes(); i++) {
+        for(int i = 0; i<ProductInventory.getNoOfItems(); i++) {
             String[] agregar = new String[5];
             agregar[0] = this.ProductInventory.getArticle(i).getKeyArt();
             agregar[1] = this.ProductInventory.getArticle(i).getClass().getSimpleName();
@@ -468,7 +468,7 @@ public class GestorGUI extends javax.swing.JFrame {
 
             this.tblProduct.setModel(model);
 
-            for(int i = 0; i<ProductInventory.getNoOfClothes(); i++) {
+            for(int i = 0; i<ProductInventory.getNoOfItems(); i++) {
                 String[] agregar = new String[5];
                 agregar[0] = this.ProductInventory.getArticle(i).getKeyArt();
                 agregar[1] = this.ProductInventory.getArticle(i).getClass().getSimpleName();

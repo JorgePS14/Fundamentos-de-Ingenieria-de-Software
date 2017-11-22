@@ -107,7 +107,7 @@ public class ModificarInventarioGUI extends javax.swing.JFrame {
             
             this.parent.getTblClothes().setModel(model);
         
-            for(int i = 0; i<this.parent.ProductInventory.getNoOfClothes(); i++) {
+            for(int i = 0; i<this.parent.ProductInventory.getNoOfItems(); i++) {
                 String[] agregar = new String[5];
                 agregar[0] = this.parent.ProductInventory.getArticle(i).getKeyArt();
                 agregar[1] = this.parent.ProductInventory.getArticle(i).getClass().getSimpleName();
